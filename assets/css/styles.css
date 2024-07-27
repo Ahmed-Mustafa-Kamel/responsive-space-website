@@ -474,6 +474,48 @@ img {
 
 /*=============== HISTORY ===============*/
 
+.history {
+  position: relative;
+}
+
+.history__container {
+  position: relative;
+  row-gap: 2.5rem;
+  grid-template-columns: 265px;
+  justify-content: center;
+}
+
+.history__card {
+  text-align: center;
+}
+
+.history__img {
+  width: 150px;
+  margin: 0 auto 0.75rem;
+}
+
+.history__description span {
+  color: var(--first-color);
+  font-weight: var(--font-semi-bold);
+}
+
+.history__planet-1,
+.history__planet-2 {
+  position: absolute;
+}
+
+.history__planet-1 {
+  width: 250px;
+  top: 10rem;
+  left: -8rem;
+}
+
+.history__planet-2 {
+  width: 150px;
+  right: -5rem;
+  bottom: 6rem;
+}
+
 /*=============== CONTACT ===============*/
 
 /*=============== FOOTER ===============*/
