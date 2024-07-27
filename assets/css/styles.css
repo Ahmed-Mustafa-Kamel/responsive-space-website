@@ -249,6 +249,9 @@ img {
 }
 
 /* Active link */
+.active-link {
+  color: var(--first-color);
+}
 
 /*=============== HOME ===============*/
 .home {
@@ -654,6 +657,15 @@ img {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 340px) {
+  .container {
+    margin-inline: 1rem;
+  }
+
+  .home__title {
+    font-size: 2.5rem;
+  }
+}
 
 /* For medium devices */
 
