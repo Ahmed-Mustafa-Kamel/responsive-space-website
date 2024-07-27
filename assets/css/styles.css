@@ -609,7 +609,7 @@ img {
   font-size: var(--small-font-size);
 }
 .footer__copy a {
-  color: hsl(34, 93%, 53%);
+  color: hsl(192, 94%, 49%);
   font-weight: bold;
   font-size: 1.1rem;
 }
