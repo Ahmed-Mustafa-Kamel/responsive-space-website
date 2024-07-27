@@ -451,11 +451,11 @@ img {
 }
 
 .explore__info-title {
-  font-style: var(--normal-font-size);
+  font-size: var(--normal-font-size);
 }
 
 .explore__info-number {
-  font-style: var(--h1-font-size);
+  font-size: var(--h1-font-size);
   font-family: var(--second-font);
   background: var(--second-gradient);
   background-clip: text;
@@ -464,7 +464,7 @@ img {
 }
 
 .explore__info-number span {
-  font-style: var(--small-font-size);
+  font-size: var(--small-font-size);
 }
 
 .explore__img {
@@ -540,8 +540,93 @@ img {
 }
 
 /*=============== FOOTER ===============*/
+.footer {
+  overflow: hidden;
+}
+
+.footer__container {
+  position: relative;
+  row-gap: 4.5rem;
+  padding-block: 2rem;
+}
+
+.footer__planet-1,
+.footer__planet-2 {
+  position: absolute;
+}
+.footer__planet-1 {
+  width: 200px;
+  left: -6.5rem;
+  bottom: -4.5rem;
+}
+.footer__planet-2 {
+  width: 50px;
+  top: 4.5rem;
+  right: 0;
+}
+.footer__content {
+  row-gap: 2.5rem;
+}
+
+.footer__links {
+  display: flex;
+  column-gap: 2rem;
+  justify-content: center;
+}
+.footer__link {
+  color: var(--white-color);
+  font-weight: var(--font-semi-bold);
+  transition: color 0.4s;
+}
+
+.footer__link:hover {
+  color: var(--first-color);
+}
+
+.footer__social {
+  display: flex;
+  column-gap: 1rem;
+  justify-content: center;
+}
+
+.footer__social-link {
+  display: inline-flex;
+  background: var(--third-gradient);
+  color: var(--white-color);
+  padding: 0.25rem;
+  font-size: 1.5rem;
+  transition: box-shadow 0.4s;
+}
+
+.footer__social-link:hover {
+  box-shadow: 0 8px 32px hsla(25, 96%, 55%, 0.6);
+}
+
+.footer__copy {
+  text-align: center;
+  z-index: var(--z-tooltip);
+  color: var(--white-color);
+  font-size: var(--small-font-size);
+}
+.footer__copy a {
+  color: hsl(34, 93%, 53%);
+  font-weight: bold;
+  font-size: 1.1rem;
+}
 
 /*=============== SCROLL BAR ===============*/
+::-webkit-scrollbar {
+  width: 0.6rem;
+  background-color: hsl(238, 60%, 20%);
+}
+::-webkit-scrollbar-thumb {
+  width: 0.6rem;
+  background-color: hsl(238, 50%, 30%);
+}
+::-webkit-scrollbar-thumb:hover {
+  width: 0.6rem;
+  background-color: hsl(238, 40%, 40%);
+}
 
 /*=============== SCROLL UP ===============*/
 
