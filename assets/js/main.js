@@ -38,28 +38,9 @@ window.addEventListener('scroll', blurHeader)
 
 
 /*=============== SWIPER PLANETS ===============*/
-// const swiperTravel = new Swiper('.swiper', {
-//     loop: true,
-//     spaceBetween: '32',
-//     grabCursor: true,
-//     slidesPerView: 'auto',
-//     centerdSlides: 'auto',
-//     pagination: {
-//         el: '.swiper-pagination',
-//     },
-//     breakPoints: {
-//         600: {
-//             slidesPerView: 2,
-//         },
-//         900: {
-//             slidesPerView: 3,
-//         },
-
-//     }
-// });
 const swiper = new Swiper('.travel__swiper', {
     // Optional parameters
-    direction: 'horizontal',
+    // direction: 'horizontal',
     loop: true,
     spaceBetween: '32',
     grabCursor: true,
@@ -70,8 +51,9 @@ const swiper = new Swiper('.travel__swiper', {
     // If we need pagination
     pagination: {
         el: '.swiper-pagination',
+        clickable: true,
     },
-    breakPoints: {
+    breakpoints: {
         600: {
             slidesPerView: 2,
         },
